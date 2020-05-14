@@ -1,5 +1,5 @@
 {
-  "name": "wp-oop/wordpress-interop",
+  "name": "wp-oop/wordpress-interface",
   "description": "Interfaces for interop within WordPress",
   "minimum-stability": "dev",
   "license": "MIT",
