@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e771246fb77f4914674ad0acbb3be47",
+    "content-hash": "9150a96eb544eb65981d4ff7c0ac8005",
     "packages": [
         {
             "name": "dhii/human-readable-interface",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/human-readable-interface.git",
-                "reference": "d74465f9e3768a95814762a536cbd2322c65481a"
+                "reference": "a892c35394eebc627ff81f5112b09ab9da727754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/human-readable-interface/zipball/d74465f9e3768a95814762a536cbd2322c65481a",
-                "reference": "d74465f9e3768a95814762a536cbd2322c65481a",
+                "url": "https://api.github.com/repos/Dhii/human-readable-interface/zipball/a892c35394eebc627ff81f5112b09ab9da727754",
+                "reference": "a892c35394eebc627ff81f5112b09ab9da727754",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 }
             ],
             "description": "Interfaces for human readable string interoperation.",
-            "time": "2020-04-16T14:59:23+00:00"
+            "time": "2020-05-14T18:39:55+00:00"
         },
         {
             "name": "dhii/package-interface",
