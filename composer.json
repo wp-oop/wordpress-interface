@@ -26,5 +26,10 @@
     "psr-4": {
       "WpOop\\WordPress\\Test\\Unit\\": "tests/unit"
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-task/initial-interfaces": "0.1.x-dev"
+    }
   }
 }
