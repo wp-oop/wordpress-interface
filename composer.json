@@ -1,0 +1,12 @@
+{
+  "name": "wp-oop/wordpress-interop",
+  "description": "Interfaces for interop within WordPress",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Ukhanev",
+      "email": "xedin.unknown@gmail.com"
+    }
+  ]
+}
