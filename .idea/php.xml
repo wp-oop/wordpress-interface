@@ -31,6 +31,10 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/dhii/human-readable-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/package-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/stringable-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/validation-interface" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

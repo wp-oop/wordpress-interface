@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/tests/unit" isTestSource="true" packagePrefix="WpOop\WordPress\Test\Unit\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/human-readable-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/package-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/stringable-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/validation-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />
