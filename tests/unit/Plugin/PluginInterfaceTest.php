@@ -9,7 +9,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use WpOop\WordPress\Plugin\PluginInterface as Subject;
 
-class PluginTest extends TestCase
+class PluginInterfaceTest extends TestCase
 {
     /**
      * @return Subject|MockObject
