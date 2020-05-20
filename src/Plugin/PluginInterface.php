@@ -51,12 +51,4 @@ interface PluginInterface extends
      *                A path to the plugin main file, relative to plugins directory.
      */
     public function getBaseName(): string;
-
-    /**
-     * Retrieves the slug of this plugin.
-     *
-     * @return string The plugin slug.
-     *                A list of hyphen-separated alphanumeric fragmens.
-     */
-    public function getSlug(): string;
 }
