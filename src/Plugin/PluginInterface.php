@@ -49,6 +49,8 @@ interface PluginInterface extends
      *
      * @return string The basename.
      *                A path to the plugin main file, relative to plugins directory.
+     *
+     * @throws Exception If problem retrieving.
      */
     public function getBaseName(): string;
 }
