@@ -5,9 +5,9 @@ namespace WpOop\WordPress\Test\Unit\WpCli;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use WpOop\WordPress\WpCli\CliCommandInterface as Subject;
+use WpOop\WordPress\WpCli\WpCliCommandInterface as Subject;
 
-class CliCommandInterfaceTest extends TestCase
+class WpCliCommandInterfaceTest extends TestCase
 {
     protected function createSubject(): Subject
     {

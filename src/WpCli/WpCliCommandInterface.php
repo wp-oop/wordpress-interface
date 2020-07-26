@@ -7,7 +7,7 @@ namespace WpOop\WordPress\WpCli;
 /**
  * Represents WP_CLI command.
  */
-interface CliCommandInterface
+interface WpCliCommandInterface
 {
     /**
      * Execute command.
