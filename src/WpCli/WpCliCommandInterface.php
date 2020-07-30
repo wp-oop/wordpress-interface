@@ -11,8 +11,13 @@ interface WpCliCommandInterface
 {
     /**
      * Execute command.
+     *
+     * @param array $args Array of command positional arguments (like *woocommerce* in wp plugin install woocommerce)
+     * @param array $assocArgs Array of command associative arguments (like *Title* in wp core install --title="Title")
+     *
+     * @see https://make.wordpress.org/cli/handbook/guides/commands-cookbook/#anatomy-of-a-command
      */
-    public function __invoke(): void;
+    public function __invoke($args = [], $assocArgs = []): void;
 
     /**
      * Returns command name.
