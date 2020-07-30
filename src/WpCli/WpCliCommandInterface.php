@@ -17,7 +17,7 @@ interface WpCliCommandInterface
      *
      * @see https://make.wordpress.org/cli/handbook/guides/commands-cookbook/#anatomy-of-a-command
      */
-    public function __invoke($args = [], $assocArgs = []): void;
+    public function __invoke(array $args = [], array $assocArgs = []): void;
 
     /**
      * Returns command name.
