@@ -5,7 +5,7 @@ declare (strict_types = 1);
 namespace WpOop\WordPress\WpCli;
 
 /**
- * Represents WP_CLI command.
+ * Represents a WP_CLI command.
  */
 interface WpCliCommandInterface
 {
