@@ -1,20 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <phpunit
-        bootstrap="tests/bootstrap.php"
-        colors="true"
-        beStrictAboutOutputDuringTests="true"
-        beStrictAboutChangesToGlobalState="true"
-        backupGlobals="true"
-        backupStaticAttributes="true"
-        processIsolation="true"
-        stopOnError="false"
-        stopOnFailure="false">
+    colors="true"
+    bootstrap="tests/bootstrap.php"
+>
+    <php>
+        <ini name="display_errors" value="1" />
+        <ini name="display_startup_errors" value="1" />
+    </php>
     <testsuites>
-        <testsuite name="Unit">
-            <directory suffix="Test.php">tests/unit</directory>
+        <testsuite name="unit">
+            <directory>tests/unit</directory>
         </testsuite>
     </testsuites>
     <filter>
-        <whitelist addUncoveredFilesFromWhitelist="false">
+        <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src</directory>
         </whitelist>
     </filter>
