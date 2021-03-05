@@ -11,8 +11,8 @@
   ],
   "require": {
     "php": "^7.1",
-    "dhii/package-interface": "^0.1-alpha1",
-    "dhii/human-readable-interface": "^0.1"
+    "dhii/package-interface": "^0.1-alpha3",
+    "dhii/human-readable-interface": "^0.2.0-alpha1"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",

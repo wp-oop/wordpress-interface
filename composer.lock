@@ -4,34 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcbd5ce507f90d5801e745ccd7d0793f",
+    "content-hash": "2c1c6a84a01d007bf185586edf171d28",
     "packages": [
         {
             "name": "dhii/human-readable-interface",
-            "version": "dev-develop",
+            "version": "0.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/human-readable-interface.git",
-                "reference": "a892c35394eebc627ff81f5112b09ab9da727754"
+                "reference": "04e14d69705ebf261605abd8144f27cb4daabccd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/human-readable-interface/zipball/a892c35394eebc627ff81f5112b09ab9da727754",
-                "reference": "a892c35394eebc627ff81f5112b09ab9da727754",
+                "url": "https://api.github.com/repos/Dhii/human-readable-interface/zipball/04e14d69705ebf261605abd8144f27cb4daabccd",
+                "reference": "04e14d69705ebf261605abd8144f27cb4daabccd",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3 | ^7.0"
+                "php": "^7.1 | ^8.0"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/php-cs-fixer-config": "dev-php-5.3",
-                "dhii/stringable-interface": "^0.1.0",
-                "phpunit/phpunit": "^4.8",
-                "ptrofimov/xpmock": "^1.1"
+                "phpunit/phpunit": "^6.0 | ^7.0 | ^8.0 | ^9.0",
+                "slevomat/coding-standard": "^6.0",
+                "symfony/polyfill-php80": "^1.19",
+                "vimeo/psalm": "^3.11.7 | ^4.0"
             },
             "suggest": {
-                "dhii/i18n-interface": "For internationalizing and translating human readable strings."
+                "dhii/i18n-interface": "For internationalizing and translating human readable strings.",
+                "symfony/polyfill-php80": "To add Stringable interface"
             },
             "default-branch": true,
             "type": "library",
@@ -58,9 +58,9 @@
             "description": "Interfaces for human readable string interoperation.",
             "support": {
                 "issues": "https://github.com/Dhii/human-readable-interface/issues",
-                "source": "https://github.com/Dhii/human-readable-interface/tree/v0.1.0"
+                "source": "https://github.com/Dhii/human-readable-interface/tree/0.2.x"
             },
-            "time": "2020-05-14T18:39:55+00:00"
+            "time": "2021-03-05T00:45:27+00:00"
         },
         {
             "name": "dhii/package-interface",
