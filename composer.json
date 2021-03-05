@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.1",
+    "php": "^7.1 | ^8.0",
     "dhii/package-interface": "^0.1-alpha3",
     "dhii/human-readable-interface": "^0.2.0-alpha1"
   },

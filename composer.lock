@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c1c6a84a01d007bf185586edf171d28",
+    "content-hash": "e116cda9dc45826575cbd30d4813241d",
     "packages": [
         {
             "name": "dhii/human-readable-interface",
@@ -3511,7 +3511,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.1 | ^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
