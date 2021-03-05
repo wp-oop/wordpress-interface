@@ -1,5 +1,9 @@
 # Dhii - WordPress Interop
-Interfaces for interop within WordPress
+[![Continuous Integration](https://github.com/wp-oop/wordpress-interface/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/wp-oop/wordpress-interface/actions/workflows/continuous-integration.yml)
+[![Latest Stable Version](https://poser.pugx.org/wp-oop/wordpress-interface/v)](http://packagist.org/packages/wp-oop/wordpress-interface)
+[![Latest Unstable Version](https://poser.pugx.org/wp-oop/wordpress-interface/v/unstable)](http://packagist.org/packages/wp-oop/wordpress-interface)
+
+Interfaces for interop within WordPress.
 
 ## Details
 Often, multiple packages need to operate on the various aspects of WordPress,
