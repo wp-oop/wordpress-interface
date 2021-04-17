@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace WpOop\WordPress\Query;
 
+use DateTimeInterface;
 use WpOop\WordPress\Meta\MetaQueryInterface;
 
 /**
@@ -68,14 +69,18 @@ interface QueryConfiguratorInterface
     public function withNotIn(string $key, iterable $values): self;
 
     /**
+     * @param numeric|string|DateTimeInterface $lowerBound
+     * @param numeric|string|DateTimeInterface $upperBound
      * @return static
      */
-    public function withBetween(string $key, string $lowerBound, string $upperBound): self;
+    public function withBetween(string $key, $lowerBound, $upperBound): self;
 
     /**
+     * @param numeric|string|DateTimeInterface $lowerBound
+     * @param numeric|string|DateTimeInterface $upperBound
      * @return static
      */
-    public function withNotBetween(string $key, string $lowerBound, string $upperBound): self;
+    public function withNotBetween(string $key, $lowerBound,  $upperBound): self;
 
     /**
      * @return static
