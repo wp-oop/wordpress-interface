@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace WpOop\WordPress\Taxonomy;
 
-use WpOop\WordPress\Entity\EntityQueryResultInterface;
 use WpOop\WordPress\Meta\MetaQueryInterface;
 use WpOop\WordPress\Entity\EntityQueryInterface;
+use WpOop\WordPress\Query\QueryResultInterface;
 
 /**
  * Represents a query for WordPress terms.
@@ -16,7 +16,7 @@ interface TermQueryInterface extends EntityQueryInterface
     /**
      * @return TermQueryResultInterface
      */
-    public function query(): EntityQueryResultInterface;
+    public function query(): QueryResultInterface;
 
     /**
      * @return static
@@ -40,18 +40,6 @@ interface TermQueryInterface extends EntityQueryInterface
      * @return static
      */
     public function withObjectIdNotIn(iterable $objectIds): TermQueryInterface;
-
-    /**
-     * @param iterable<int> $termIds
-     * @return static
-     */
-    public function withIdIn(iterable $termIds): TermQueryInterface;
-
-    /**
-     * @param iterable<int> $termIds
-     * @return static
-     */
-    public function withIdNotIn(iterable $termIds): TermQueryInterface;
 
     /**
      * @param iterable<int> $termIds

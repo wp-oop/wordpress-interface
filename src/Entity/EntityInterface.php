@@ -10,7 +10,7 @@ use Dhii\Data\IdAwareInterface;
 /**
  * Represents a WordPress entity, a.k.a. "object".
  */
-interface EntityInterface extends IdAwareInterface
+interface EntityInterface extends IdAwareInterface, MapInterface
 {
     public function getEntityType(): string;
 

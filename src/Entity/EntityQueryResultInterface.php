@@ -4,22 +4,15 @@ declare(strict_types=1);
 
 namespace WpOop\WordPress\Entity;
 
-use Dhii\Collection\CountableListInterface;
-use Traversable;
+use WpOop\WordPress\Query\QueryResultInterface;
 
 /**
  * Represents a WordPress post query result.
  *
  * @extends Traversable<EntityInterface>
  */
-interface EntityQueryResultInterface extends Traversable, CountableListInterface
+interface EntityQueryResultInterface extends QueryResultInterface
 {
-    /**
-     * The total number of items found on all pages.
-     *
-     */
-    public function getTotalCount(): int;
-
     /**
      * @return iterable<int>
      */

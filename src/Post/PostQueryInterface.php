@@ -7,6 +7,7 @@ namespace WpOop\WordPress\Post;
 use WpOop\WordPress\Entity\EntityQueryInterface;
 use WpOop\WordPress\Entity\EntityQueryResultInterface;
 use WpOop\WordPress\Meta\MetaQueryInterface;
+use WpOop\WordPress\Query\QueryResultInterface;
 
 /**
  * Represents a WordPress post query.
@@ -16,7 +17,7 @@ interface PostQueryInterface extends EntityQueryInterface
     /**
      * @return PostQueryResultInterface
      */
-    public function query(): EntityQueryResultInterface;
+    public function query(): QueryResultInterface;
 
     /**
      * @param int[] $ids
@@ -29,9 +30,4 @@ interface PostQueryInterface extends EntityQueryInterface
      * @return static
      */
     public function withAuthorIdNotIn(array $ids): self;
-
-    /**
-     * @return static
-     */
-    public function withMeta(MetaQueryInterface $query): self;
 }
