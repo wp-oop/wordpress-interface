@@ -1,6 +1,6 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace WpOop\WordPress\Post;
 
@@ -21,49 +21,41 @@ interface PostInterface extends EntityInterface, TitleAwareInterface, NameAwareI
     /**
      * Signifies that a post has been published.
      *
-     * @var string
      */
     public const STATUS_PUBLISHED = 'published';
     /**
      * Signifies that a post has been scheduled to be published in the future.
      *
-     * @var string
      */
     public const STATUS_FUTURE = 'future';
     /**
      * Signifies that a post is incomplete.
      *
-     * @var string
      */
     public const STATUS_DRAFT = 'draft';
     /**
      * Signifies that a post is awaiting to be published.
      *
-     * @var string
      */
     public const STATUS_PENDING = 'pending';
     /**
      * Signifies that a post is not intended to be publicly viewable.
      *
-     * @var string
      */
     public const STATUS_PRIVATE = 'private';
     /**
      * Signifies that a post has been trashed.
      *
-     * @var string
      */
     public const STATUS_TRASH = 'trash';
     /**
      * Signifies that a post has been created automatically.
      *
-     * @var string
      */
     public const STATUS_AUTO_DRAFT = 'auto-draft';
     /**
      * Signifies that a post's status is determined by its parent post.
      *
-     * @var string
      */
     public const STATUS_INHERIT = 'inherit';
 

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace WpOop\WordPress\Taxonomy;
@@ -18,7 +19,6 @@ interface TermQueryInterface extends EntityQueryInterface
     public function query(): EntityQueryResultInterface;
 
     /**
-     * @param string $type
      * @return static
      */
     public function withEntityType(string $type): TermQueryInterface;
@@ -72,7 +72,6 @@ interface TermQueryInterface extends EntityQueryInterface
     public function withLabelIn(iterable $labels): TermQueryInterface;
 
     /**
-     * @param bool $isHierarchical
      * @return static
      */
     public function withIsHierarchical(bool $isHierarchical): TermQueryInterface;
@@ -84,26 +83,21 @@ interface TermQueryInterface extends EntityQueryInterface
     public function withKeyOrLabelLike(string $keyOrLabelPart): TermQueryInterface;
 
     /**
-     * @param string $labelPart
      * @return static
      */
     public function withLabelLike(string $labelPart): TermQueryInterface;
 
     /**
-     * @param string $descriptionPart
      * @return static
      */
     public function withDescriptionLike(string $descriptionPart): TermQueryInterface;
 
     /**
-     * @param int $termId
      * @return static
      */
     public function withParentId(int $termId): TermQueryInterface;
 
     /**
-     * @param MetaQueryInterface $query
-     * @return TermQueryInterface
      */
     public function withMeta(MetaQueryInterface $query): TermQueryInterface;
 }

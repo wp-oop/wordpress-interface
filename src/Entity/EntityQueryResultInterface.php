@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace WpOop\WordPress\Entity;
@@ -16,7 +17,6 @@ interface EntityQueryResultInterface extends Traversable, CountableListInterface
     /**
      * The total number of items found on all pages.
      *
-     * @return int
      */
     public function getTotalCount(): int;
 

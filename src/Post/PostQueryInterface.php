@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace WpOop\WordPress\Post;
@@ -30,7 +31,6 @@ interface PostQueryInterface extends EntityQueryInterface
     public function withAuthorIdNotIn(array $ids): self;
 
     /**
-     * @param MetaQueryInterface $query
      * @return static
      */
     public function withMeta(MetaQueryInterface $query): self;
