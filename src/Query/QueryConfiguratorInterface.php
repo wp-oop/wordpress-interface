@@ -87,6 +87,11 @@ interface QueryConfiguratorInterface
      */
     public function withRegexp(string $key, string $regexp): self;
 
+    /**
+     * @return static
+     */
+    public function withNotRegexp(string $key, string $regexp): self;
+
 
     /**
      * @param self $query The query to add a relationship with.
