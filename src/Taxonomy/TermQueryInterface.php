@@ -84,8 +84,4 @@ interface TermQueryInterface extends EntityQueryInterface
      * @return static
      */
     public function withParentId(int $termId): TermQueryInterface;
-
-    /**
-     */
-    public function withMeta(MetaQueryInterface $query): TermQueryInterface;
 }
