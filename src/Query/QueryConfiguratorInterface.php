@@ -12,6 +12,9 @@ use WpOop\WordPress\Meta\MetaQueryInterface;
  */
 interface QueryConfiguratorInterface
 {
+    public const RELATION_TYPE_AND = 'AND';
+    public const RELATION_TYPE_OR = 'OR';
+
     /**
      * @return static
      */
@@ -92,16 +95,15 @@ interface QueryConfiguratorInterface
      */
     public function withNotRegexp(string $key, string $regexp): self;
 
-
     /**
      * @param self $query The query to add a relationship with.
      * @return static
      */
-    public function withAnd(QueryConfiguratorInterface $query): self;
+    public function withQuery(QueryConfiguratorInterface $query): self;
 
     /**
-     * @param self $query The query to add a relationship with.
+     * @param self::RELATION_TYPE_* $relation
      * @return static
      */
-    public function withOr(QueryConfiguratorInterface $query): self;
+    public function withRelation(string $relation): self;
 }

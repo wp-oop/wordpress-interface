@@ -10,7 +10,7 @@ use WpOop\WordPress\Query\QueryConfiguratorInterface;
 
 /**
  * @psalm-type FieldConfig = array{key: string, value: mixed, compare: string, type: string}
- * @psalm-type MetaQueryConfig = array{relation, ...: FieldConfig|MetaQueryConfig}
+ * @psalm-type MetaQueryConfig = array{relation: 'AND'|'OR', ...: FieldConfig|MetaQueryConfig}
  */
 
 /**
@@ -24,16 +24,10 @@ interface MetaQueryInterface extends ClauseQueryInterface
     public function withExists(string $key): self;
 
     /**
-     * @param self $query
+     * @param self $query The subquery query to add.
      * @return static
      */
-    public function withAnd(QueryConfiguratorInterface $query): QueryConfiguratorInterface;
-
-    /**
-     * @param self $query
-     * @return static
-     */
-    public function withOr(QueryConfiguratorInterface $query): QueryConfiguratorInterface;
+    public function withQuery(QueryConfiguratorInterface $query): QueryConfiguratorInterface;
 
     /**
      * @return array The configuration for {@see WP_Meta_Query}.
