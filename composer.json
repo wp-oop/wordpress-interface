@@ -26,7 +26,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "WpOop\\WordPress\\Test\\": "tests"
+      "WpOop\\WordPress\\Test\\Unit\\": "tests/unit"
     }
   },
   "extra": {
