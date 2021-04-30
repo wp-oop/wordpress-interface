@@ -13,5 +13,5 @@ interface BlockParserInterface
      * @param string $postContent Content of a WP post (e.g. WP_Post post_content).
      * @return BlockInterface[]
      */
-    public function parseBlock(string $postContent): array;
+    public function parseBlocks(string $postContent): array;
 }
