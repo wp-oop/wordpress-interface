@@ -56,6 +56,10 @@
       <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
       <path value="$PROJECT_DIR$/vendor/vimeo/psalm" />
       <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/dhii/collections-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-key-value-aware-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-identifiable-interface" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
